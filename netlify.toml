@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+  command = "echo 'hello'"
+
+[[edge_functions]]
+  function = "request-basic-auth"
+  path = "/*"
